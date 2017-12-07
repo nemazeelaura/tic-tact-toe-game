@@ -3,36 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Tic Tac Toe</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-	<div id="wrapper"></div>
-	<h1 class=tictactoe>Tic Tac Toe</h1>
-
-    <table id="gameBoard" class="table">
-        <tbody>
-            <tr id=row1>
-                <td id=c1></td>
-                <td id=c1></td>
-                <td id=c1></td>    
+    <div>
+        <table id="gameBoard" class="table">
+        <tbody><h1>Tic Tac Toe</h1>
+            <tr id="row1">
+                <td id=c1 class="box">
+                </td>
+                <td id=c2 class="box"></td>
+                <td id=c3 class="box"></td>    
             </tr>
-            <tr id=row2>
-                <td id=c2></td>
-                <td id=c2></td>
-                <td id=c2></td>
+            <tr id="row2">
+                <td id="c4" class="box"></td>
+                <td id="c5" class="box"></td>
+                <td id="c6" class="box"></td>
             </tr>
-            <tr id=row3>
-                <td id=c3></td>
-                <td id=c3></td>
-                <td id=c3></td>
+            <tr id="row3">
+                <td id="c7" class="box"></td>
+                <td id="c8" class="box"></td>
+                <td id="c9" class="box"></td>
             </tr>
+       
         </tbody>
     </table>
+    </div>
 	<br>
-    <button id="clearGame" class="resets">reset</button>
-
+    <button id="clearGame" class="resets">clear game</button>
+    <script type="text/javascript"  type="js" src="js/main.js"></script>
+ 
 </body>
 	
-</body>
 </html>
